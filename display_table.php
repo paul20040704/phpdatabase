@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PHP Assignment 02 - Record</title>
+<title>PHP Record</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="styles.css" />		
 </head>
