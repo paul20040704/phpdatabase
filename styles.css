@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+	background: gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, p {
+	color: white;
+}
+
+h1 {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+.dbtable {
+	padding:10px;
+	margin:10px auto;
+	/* float:left; */
+	width:800px;	
+	background-color:#a4adbc;
+}
+
+fieldset {
+	border-width:1px;
+	border-style:dotted;
+	border-color:black;
+	background-color:#d8d8d8;
+}
+
+legend {
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color:#ffffff;
+	padding: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+a {
+	color: blue;
+}
+
+.back-button {
+	display: inline-block;
+	margin-top: 5px;
+	color: white;
+}
+
+input[type="text"] {
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	display: inline-block;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a:hover, a:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	border: 3px solid salmon;
+}
